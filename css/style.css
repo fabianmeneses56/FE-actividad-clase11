@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.textoLogo {
+  align-self: center;
+}
+.imagenLogo {
+  margin: 10px 10px 10px 20px;
+}
+.containerLogo {
+  display: flex;
+}
+.containerNavegacion {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+.containerNavegacion li {
+  margin-left: 13px;
+  margin-right: 13px;
+}
+.containerNavegacion li {
+  color: #fff;
+}
+.headerContainer {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-between;
+  align-content: center;
+}
+.containerNav {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 41px;
+}
+.deliveryImg {
+  width: 490px;
+  height: 350px;
+}
+.deliveryText {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.deliveryTextRed {
+  color: red;
+}
+.delivreryContenedor {
+  position: relative;
+}
+.containerPodio {
+  width: 491px;
+  height: 350px;
+  background-color: #fff;
+}
+.PizzaFalling {
+  width: 92px;
+  height: 129px;
+  margin-right: 93px;
+}
+.tituloPodio {
+  color: #fc200c;
+  font-size: 24px;
+  margin-top: 26px;
+  display: inline-block;
+}
+.containerTituloPodio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 58px;
+}
+.contenerdorPrincipal {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.contenedorTop {
+  margin-left: 51px;
+}
+.contenedorListaTop {
+  margin-top: 20px;
+}
+.contenedorListaTop li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contenedorMain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.containerFooter {
+  height: 150px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.containerNavFooter {
+  margin-left: 20px;
+  margin-top: 19px;
+  list-style-type: none;
+}
+.containerNavegacionFooter li {
+  color: #fff;
+  list-style-type: none;
+
+  margin-bottom: 12px;
+}
+.containerNavegacionFooter {
+  display: flex;
+  flex-direction: column;
+}
+.containerNavegacionFooter :nth-child(1) {
+  margin-bottom: 12px;
+  order: 1;
+}
+.containerNavegacionFooter :nth-child(2) {
+  order: 3;
+  color: aqua;
+}
+.containerNavegacionFooter :nth-child(3) {
+  order: 4;
+}
+.containerNavegacionFooter :nth-child(4) {
+  order: 2;
+}
+.containerLogoFooter {
+  display: flex;
+  margin-right: 42px;
+}
+.textoLogoFooter {
+  align-self: center;
+}
+.imagenLogoFooter {
+  margin: 10px 10px 10px 20px;
+  align-self: center;
+}
